@@ -1,3 +1,4 @@
+<!-- Appointment Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="bg-light rounded">
@@ -46,10 +47,11 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="{{asset('assets/img/appointment.jpg')}}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('assets/img/appointment.jpg') }}" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- Appointment End -->

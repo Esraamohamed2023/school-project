@@ -1,10 +1,11 @@
+<!-- Call To Action Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="bg-light rounded">
             <div class="row g-0">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="{{asset('assets/img/call-to-action.jpg')}}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded" src="{{ asset('assets/img/call-to-action.jpg') }}" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -20,3 +21,4 @@
         </div>
     </div>
 </div>
+<!-- Call To Action End -->
